@@ -34,6 +34,42 @@ a:hover {
     transform: rotate(-5deg);
   }
 }
-.main_header .navbar-brand:hover, .main_header .navbar-brand:hover > .fas {
+.main_header .navbar-brand:hover {
+  filter: drop-shadow(0 1.5rem 1rem rgba(255, 255, 255, 0.5));
+}
+.main_header .navbar-nav {
+  padding-left: 15rem;
+}
+.main_header .navbar-nav .nav-item .nav-link {
+  font-size: 1.6rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding-right: 3rem;
+}
+.main_header .navbar-nav .nav-item:last-child > .nav-link {
+  padding-right: 0%;
+}
+.main_header .nav-item:hover > .nav-link, .main_header .navbar-brand:hover, .main_header .navbar-brand:hover > .fas {
   color: #b71540;
+}
+.main_header .my_btn {
+  padding: 0.8rem 3.2rem;
+  background: #b71540;
+  line-height: 3rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #fff;
+  border: none;
+  box-shadow: 0rem 0.8rem 1.5rem rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  border-radius: 4.5rem;
+  outline: none;
+}
+.main_header .my_btn:hover {
+  background-color: #fff;
+  box-shadow: 0rem 1.5rem 2rem rgba(255, 255, 157, 0.4);
+  color: #0a183d;
+  transform: translateY(-0.7rem);
 }/*# sourceMappingURL=main.css.map */

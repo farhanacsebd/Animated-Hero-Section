@@ -1,6 +1,7 @@
 // file import
 @import '../scss/var';
 @import '../scss/vendor';
+@import '../scss/mixin';
 
 // styling
 html{
@@ -40,11 +41,40 @@ a:hover{
                 transform: rotate(-5deg);
             }
         }
+
+        &:hover {
+            filter: drop-shadow(0 1.5rem 1rem rgba(255, 255, 255, 0.5));
+        }
+    }
+
+    & .navbar-nav {
+        padding-left: 15rem;
+
+        & .nav-item .nav-link {
+            font-size: 1.6rem;
+            color: $text-color;
+            text-transform: uppercase;
+            padding-right: 3rem;
+        }
+
+        & .nav-item:last-child > .nav-link {
+            padding-right: 0%;
+        }
+
     }
     
+    & .nav-item:hover > .nav-link, 
     & .navbar-brand:hover,
     & .navbar-brand:hover> .fas{
         color: $primary-color;
+    }
+
+    & .my_btn {
+        @include mybtn;
+
+        &:hover {
+            @include hovereffects;
+        }
     }
 }
 
