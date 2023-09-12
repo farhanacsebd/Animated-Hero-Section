@@ -72,4 +72,71 @@ a:hover {
   box-shadow: 0rem 1.5rem 2rem rgba(255, 255, 157, 0.4);
   color: #0a183d;
   transform: translateY(-0.7rem);
+}
+
+.header-hero {
+  width: 100%;
+  height: 80vh;
+  background: #0a183d;
+}
+.header-hero .header_hero_text {
+  height: 80vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.header-hero .header_hero_text h2 {
+  color: #fff;
+  font-size: 7rem;
+  margin-bottom: 3rem;
+  line-height: 150%;
+  font-weight: 600;
+}
+.header-hero .header_hero_text h2 span {
+  color: #b71540;
+  text-transform: capitalize;
+}
+.header-hero .header_hero_text p {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 5rem;
+}
+.header-hero .header_hero_text .header_text_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.header-hero .header_hero_text .header_text_btn a {
+  padding: 0.8rem 3.2rem;
+  background: #b71540;
+  line-height: 3rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #fff;
+  border: none;
+  box-shadow: 0rem 0.8rem 1.5rem rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  border-radius: 4.5rem;
+  outline: none;
+}
+.header-hero .header_hero_text .header_text_btn a:hover {
+  background-color: #fff;
+  box-shadow: 0rem 1.5rem 2rem rgba(255, 255, 157, 0.4);
+  color: #0a183d;
+  transform: translateY(-0.7rem);
+}
+.header-hero .header_hero_text .header_text_btn #btn_2 {
+  margin-left: 2rem;
+  background: rgba(255, 255, 255, 0.5);
+}
+.header-hero .header_hero_text .header_text_btn #btn_2:hover {
+  background-color: #fff;
+  box-shadow: 0rem 1.5rem 2rem rgba(255, 255, 157, 0.4);
+  color: #0a183d;
+  transform: translateY(-0.7rem);
 }/*# sourceMappingURL=main.css.map */
