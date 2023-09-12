@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,600&display=swap");
 html {
   font-size: 62.5%;
 }
@@ -10,4 +11,29 @@ body {
 a,
 a:hover {
   text-decoration: none;
+}
+
+.main_header {
+  width: 100vw;
+  line-height: 10rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) #0a183d;
+}
+.main_header .navbar-brand {
+  color: #fff;
+  animation: music 1s linear infinite;
+  animation-direction: alternate;
+}
+.main_header .navbar-brand .fas {
+  font-size: 4rem;
+}
+@keyframes music {
+  from {
+    transform: rotate(5deg);
+  }
+  to {
+    transform: rotate(-5deg);
+  }
+}
+.main_header .navbar-brand:hover, .main_header .navbar-brand:hover > .fas {
+  color: #b71540;
 }/*# sourceMappingURL=main.css.map */
