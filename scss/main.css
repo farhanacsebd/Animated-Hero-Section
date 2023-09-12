@@ -81,7 +81,6 @@ a:hover {
 }
 .header-hero .header_hero_text {
   height: 80vh;
-  background: black;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -89,7 +88,7 @@ a:hover {
 }
 .header-hero .header_hero_text h2 {
   color: #fff;
-  font-size: 7rem;
+  font-size: 6.2rem;
   margin-bottom: 3rem;
   line-height: 150%;
   font-weight: 600;
@@ -139,4 +138,23 @@ a:hover {
   box-shadow: 0rem 1.5rem 2rem rgba(255, 255, 157, 0.4);
   color: #0a183d;
   transform: translateY(-0.7rem);
+}
+.header-hero .header_hero_img {
+  height: 77vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  animation: animation_hero 10s linear infinite alternate;
+}
+@keyframes animation_hero {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.header-hero .header_hero_img img {
+  filter: drop-shadow(0 1.5rem 1rem rgba(0, 0, 0, 0.8));
 }/*# sourceMappingURL=main.css.map */
