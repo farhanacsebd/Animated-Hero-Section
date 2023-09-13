@@ -181,19 +181,19 @@ a:hover {
   .header-hero {
     height: 100vh;
   }
-  .container .header_hero_text .header_text_btn {
+  .header-hero .container .header_hero_text .header_text_btn {
     display: block;
     margin: 0% auto;
   }
-  .container .header_hero_text .header_text_btn a {
+  .header-hero .container .header_hero_text .header_text_btn a {
     display: block;
     text-align: center;
   }
-  .container .header_hero_text .header_text_btn #btn_2 {
+  .header-hero .container .header_hero_text .header_text_btn #btn_2 {
     margin-top: 2rem;
     margin-left: 0%;
   }
-  .header_hero_img img {
+  .header-hero .header_hero_img img {
     display: none;
   }
 }/*# sourceMappingURL=main.css.map */
